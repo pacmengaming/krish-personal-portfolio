@@ -1,0 +1,24 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-black text-white font-mono;
+}
+
+/* Custom button style */
+.btn-custom-green {
+  @apply border-custom-green text-custom-green;
+}
+
+.btn-custom-green:hover {
+  @apply bg-custom-green text-black;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
